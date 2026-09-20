@@ -1,0 +1,11 @@
+# The backend, the HTTP server, the database layer and the test-suite use the
+# Python standard library only (http.server, sqlite3, urllib, unittest), and the
+# frontend is plain HTML/CSS/JS with no build step. See README - "Dependency
+# choices" for why.
+#
+# The packages below are OPTIONAL. The application runs without them and says
+# explicitly which outputs or metrics are unavailable when they are missing.
+
+reportlab>=4.0     # PDF report generation (without it: Markdown report only)
+matplotlib>=3.7    # charts embedded in the PDF (without it: PDF without charts)
+psutil>=5.9        # CPU/RAM sampling during runs (without it: resources = N/A)

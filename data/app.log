@@ -1,0 +1,3 @@
+2026-09-20 13:17:58 INFO    [ollama_optimizer.engine] Experiment exp_73f99f22b469 cancelled
+2026-09-20 13:40:26 INFO    [ollama_optimizer.pdf] PDF written to C:\Users\Lenovo\OneDrive\Desktop\7th Sem\ollama-optimizer\data\reports\exp_10f9f111db9c.pdf (22 pages)
+2026-09-20 13:40:26 INFO    [ollama_optimizer.engine] Experiment exp_10f9f111db9c completed
